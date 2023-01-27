@@ -1,14 +1,17 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import {
   Container,
   Heading,
   Text,
-  Button,
   Flex,
   Image,
 } from '@chakra-ui/react';
 import munLogo from './munlogo.png';
+import Committees from '../Committees';
+import WhyParticipate from '../WhyParticipate';
+import RegisterBtn from '../RegisterBtn';
+import Chairs from '../Chairs';
+import Contact from '../Contact';
 
 export default function Hero({ history, user }) {
   return (
@@ -31,7 +34,7 @@ export default function Hero({ history, user }) {
         </Text>
         <Flex align='center' mt={4}>
           <Image src={munLogo} alt='ELAD Logo' w='250px' mr={4} />
-          <Heading as='h1' fontSize='90px'>
+          <Heading as='h1' fontSize='100px'>
             Model <br />
             United Nations.
           </Heading>
@@ -44,11 +47,11 @@ export default function Hero({ history, user }) {
           diplomacy and be ready to witness the exhibition of enchanting
           statesmanship 🧑🏻‍⚖️.
         </Text>
-        <Link to='/register'>
-          <Button colorScheme='blue' variant='solid' size='lg' mt='40px'>
-            Register now
-          </Button>
-        </Link>
+        <RegisterBtn />
+        <WhyParticipate />
+        <Committees />
+        <Chairs />
+        <Contact />
       </Container>
     </>
   );
