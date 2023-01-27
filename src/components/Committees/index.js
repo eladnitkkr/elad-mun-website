@@ -2,6 +2,7 @@ import { Box, Heading } from '@chakra-ui/react';
 import React from 'react';
 import { SimpleGrid, Center } from '@chakra-ui/react';
 import CommitteesCard from '../CommitteesCard';
+import RegisterBtn from '../RegisterBtn'
 import unga from './unga.jpeg';
 import unsa from './unsa.jpeg';
 import unhrc from './unhrc.jpeg';
@@ -38,6 +39,10 @@ export default function Committees() {
           agenda='The use of force and counter-terrorism'
         />
       </SimpleGrid>
+
+      <Center>
+        <RegisterBtn />
+      </Center>
     </Box>
   );
 }

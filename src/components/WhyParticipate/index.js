@@ -21,8 +21,8 @@ export default function WhyParticipate() {
       </Center>
 
       <Grid templateColumns='repeat(auto-fill, minmax(200px, 1fr))' gap={4}>
-        {reasons.map(reason => (
-          <WhyParticipateGridItem data={reason} />
+        {reasons.map((reason, i) => (
+          <WhyParticipateGridItem key={i} data={reason} />
         ))}
       </Grid>
 
