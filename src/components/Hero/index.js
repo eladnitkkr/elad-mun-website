@@ -9,6 +9,7 @@ import {
   Image,
 } from '@chakra-ui/react';
 import munLogo from './munlogo.png';
+import Committees from '../Committees';
 
 export default function Hero({ history, user }) {
   return (
@@ -45,10 +46,17 @@ export default function Hero({ history, user }) {
           statesmanship 🧑🏻‍⚖️.
         </Text>
         <Link to='/register'>
-          <Button colorScheme='blue' variant='solid' size='lg' mt='40px'>
+          <Button
+            colorScheme='blue'
+            variant='solid'
+            size='lg'
+            mt='40px'
+            mb='75px'>
             Register now
           </Button>
         </Link>
+
+        <Committees />
       </Container>
     </>
   );
