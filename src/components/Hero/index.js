@@ -1,15 +1,15 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import {
   Container,
   Heading,
   Text,
-  Button,
   Flex,
   Image,
 } from '@chakra-ui/react';
 import munLogo from './munlogo.png';
 import Committees from '../Committees';
+import WhyParticipate from '../WhyParticipate';
+import RegisterBtn from '../RegisterBtn';
 
 export default function Hero({ history, user }) {
   return (
@@ -45,17 +45,8 @@ export default function Hero({ history, user }) {
           diplomacy and be ready to witness the exhibition of enchanting
           statesmanship 🧑🏻‍⚖️.
         </Text>
-        <Link to='/register'>
-          <Button
-            colorScheme='blue'
-            variant='solid'
-            size='lg'
-            mt='40px'
-            mb='75px'>
-            Register now
-          </Button>
-        </Link>
-
+        <RegisterBtn />
+        <WhyParticipate />
         <Committees />
       </Container>
     </>
