@@ -4,7 +4,7 @@ import Background from '../Background';
 
 function Layout({ children }) {
   return (
-    <Background src='/globeOverlay.png'>
+    <Background src='images/globeOverlay.png'>
       <Header />
       {children}
     </Background>

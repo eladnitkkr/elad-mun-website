@@ -1,17 +1,11 @@
 import React from 'react';
-import {
-  Container,
-  Heading,
-  Text,
-  Flex,
-  Image,
-} from '@chakra-ui/react';
-import munLogo from './munlogo.png';
+import { Container, Heading, Text, Flex, Image } from '@chakra-ui/react';
 import Committees from '../Committees';
 import WhyParticipate from '../WhyParticipate';
 import RegisterBtn from '../RegisterBtn';
 import Chairs from '../Chairs';
 import Contact from '../Contact';
+import Footer from '../Footer';
 
 export default function Hero({ history, user }) {
   return (
@@ -33,7 +27,7 @@ export default function Hero({ history, user }) {
           <b>ELAD</b> presents
         </Text>
         <Flex align='center' mt={4}>
-          <Image src={munLogo} alt='ELAD Logo' w='250px' mr={4} />
+          <Image src='images/munlogo.png' alt='MUN Logo' w='250px' mr={4} />
           <Heading as='h1' fontSize='100px'>
             Model <br />
             United Nations.
@@ -52,6 +46,7 @@ export default function Hero({ history, user }) {
         <Committees />
         <Chairs />
         <Contact />
+        <Footer />
       </Container>
     </>
   );

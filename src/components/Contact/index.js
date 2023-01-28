@@ -12,10 +12,10 @@ export default function Contact() {
       </Center>
 
       <Center>
-      <Link href='mailto:eladnitkkr16@gmail.com' isExternal>
-        <Button leftIcon={<EmailIcon />} variant='solid' size='lg'>
-          Email
-        </Button>
+        <Link href='mailto:eladnitkkr16@gmail.com' isExternal>
+          <Button leftIcon={<EmailIcon />} variant='solid' size='lg'>
+            Email Us
+          </Button>
         </Link>
       </Center>
     </Box>

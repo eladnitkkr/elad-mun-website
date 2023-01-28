@@ -2,7 +2,6 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { ChakraProvider } from '@chakra-ui/react';
 import theme from './theme';
-import './App.css';
 import Hero from './components/Hero';
 import Register from './components/Register';
 import Error from './components/Error';
