@@ -15,7 +15,7 @@ export default function WhyParticipate() {
   return (
     <Box mt='75px' mb='75px'>
       <Center>
-        <Heading as='h1' size='2xl' mb='50px'>
+        <Heading as='h1' size={{ base: 'lg', md: 'xl', lg: '2xl' }} mb='50px'>
           Why participate?
         </Heading>
       </Center>

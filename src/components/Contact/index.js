@@ -6,14 +6,17 @@ export default function Contact() {
   return (
     <Box mt='75px' mb='75px'>
       <Center>
-        <Heading as='h1' size='2xl' mb='50px'>
+        <Heading as='h1' size={{ base: 'lg', md: 'xl', lg: '2xl' }} mb='50px'>
           Contact the organizers
         </Heading>
       </Center>
 
       <Center>
         <Link href='mailto:eladnitkkr16@gmail.com' isExternal>
-          <Button leftIcon={<EmailIcon />} variant='solid' size='lg'>
+          <Button
+            leftIcon={<EmailIcon />}
+            variant='solid'
+            size={{ base: 'md', lg: 'lg' }}>
             Email Us
           </Button>
         </Link>
