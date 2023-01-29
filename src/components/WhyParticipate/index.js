@@ -11,7 +11,7 @@ const reasons = [
   'Provides students a platform to improve their public and interpersonal skills.',
 ];
 
-export default function WhyParticipate() {
+export default function WhyParticipate({ college }) {
   return (
     <Box mt='75px' mb='75px'>
       <Center>
@@ -27,7 +27,7 @@ export default function WhyParticipate() {
       </Grid>
 
       <Center>
-        <RegisterBtn />
+        <RegisterBtn college={college} />
       </Center>
     </Box>
   );

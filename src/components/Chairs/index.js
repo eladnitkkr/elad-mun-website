@@ -20,7 +20,7 @@ const chairLinkedin = [
   'https://www.linkedin.com/in/lakhan-saddi-21087b132',
 ];
 
-export default function Chairs() {
+export default function Chairs({ college }) {
   return (
     <Box mt='75px' mb='75px'>
       <Center>
@@ -28,10 +28,6 @@ export default function Chairs() {
           Know the Chairs
         </Heading>
       </Center>
-
-      {/* <Center>
-        <Text fontSize='2xl'>Announcing soon!</Text>
-      </Center> */}
 
       <SimpleGrid spacing={4} justifyItems='center' minChildWidth='250px'>
         {chairNames.map((name, i) => (
@@ -46,7 +42,7 @@ export default function Chairs() {
       </SimpleGrid>
 
       <Center>
-        <RegisterBtn />
+        <RegisterBtn college={college} />
       </Center>
     </Box>
   );

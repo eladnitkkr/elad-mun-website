@@ -7,7 +7,7 @@ export default function Contact() {
     <Box mt='75px' mb='75px'>
       <Center>
         <Heading as='h1' size={{ base: 'lg', md: 'xl', lg: '2xl' }} mb='50px'>
-          Contact the organizers
+          Contact the organisers
         </Heading>
       </Center>
 
