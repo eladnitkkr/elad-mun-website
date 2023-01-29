@@ -22,6 +22,7 @@ export default function CollegeModal({ isOpen, onClose, setCollege }) {
         blockScrollOnMount={false}
         isOpen={isOpen}
         onClose={onClose}
+        closeOnEsc={false}
         isCentered>
         <ModalOverlay />
         <ModalContent>
