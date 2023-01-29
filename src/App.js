@@ -3,7 +3,6 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { ChakraProvider } from '@chakra-ui/react';
 import theme from './theme';
 import Main from './components/Main';
-import Register from './components/Register';
 import Error from './components/Error';
 
 import '@fontsource/poppins/700.css';
@@ -20,7 +19,6 @@ function App() {
         <Layout>
           <Routes>
             <Route path='/' exact element={<Main />} />
-            <Route path='/register' exact element={<Register />} />
             <Route path='*' element={<Error />} />
           </Routes>
         </Layout>

@@ -4,7 +4,7 @@ import { Button } from '@chakra-ui/react';
 
 export default function RegisterBtn() {
   return (
-    <Link to='/register'>
+    <Link to='https://re6yavl2pjk.typeform.com/to/Pv0rXVIu' target='_blank'>
       <Button
         colorScheme='blue'
         variant='solid'

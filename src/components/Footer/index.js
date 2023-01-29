@@ -17,11 +17,7 @@ export default function Footer() {
     <Container maxW='container.xl' padding='1rem'>
       <Stack spacing={4} align='stretch'>
         <Box>
-          <Image
-            src='images/eladLogo.png'
-            alt='ELAD Logo'
-            w={{ base: '40px', md: '50px' }}
-          />
+          <Image src='images/eladLogo.png' alt='ELAD Logo' w='35px' />
           <Text fontWeight='bold' mt={2}>
             English Literary and Debating Club, NIT Kurukshetra
           </Text>
