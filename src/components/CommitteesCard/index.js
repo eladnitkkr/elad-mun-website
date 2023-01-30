@@ -9,8 +9,9 @@ export default function CommitteesCard({ image, name, description, agenda }) {
         <Stack mt='6' spacing='3'>
           <Heading size='md'>{name}</Heading>
           <Text fontSize='sm'>{description}</Text>
+          <br />
           <Heading size='sm' mt={4}>
-            AGENDA: <br />
+            AGENDA: <br /><br />
             {agenda}
           </Heading>
         </Stack>

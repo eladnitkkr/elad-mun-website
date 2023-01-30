@@ -12,7 +12,7 @@ export default function Contact() {
       </Center>
 
       <Center>
-        <Link href='mailto:eladnitkkr16@gmail.com' isExternal>
+        <Link href='mailto:elad@nitkkr.ac.in' isExternal>
           <Button
             leftIcon={<EmailIcon />}
             variant='solid'

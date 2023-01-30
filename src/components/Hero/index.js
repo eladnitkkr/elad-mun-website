@@ -49,10 +49,10 @@ export default function Hero({ college }) {
         mt={4}>
         Current speakers are going to be future world leaders, and English
         Literary and Debating Club is setting the stage for these leaders. Model
-        United Nations (MUN) will be organized by ELAD on 10th and 11th
+        United Nations (MUN) will be organized by ELAD on 11th and 12th
         February, 2023 at NIT Kurukshetra. Stay tuned, keep ameliorating your
         diplomacy and be ready to witness the exhibition of enchanting
-        statesmanship 🧑🏻‍⚖️.
+        statesmanship.
       </Text>
       <RegisterBtn college={college} />
     </>

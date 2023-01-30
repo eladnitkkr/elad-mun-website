@@ -18,19 +18,19 @@ export default function Committees({ college }) {
           name='UN General Assembly (UNGA)'
           image='images/unga.jpeg'
           description='The UNGA is the main policy-making organ of the UN. Comprising all Member States, it provides a unique forum for multilateral discussion of the full spectrum of international issues covered by the Charter of the United Nations.'
-          agenda='Tackling the global refugee crisis'
+          agenda='Addressing the impact of widespead refugee crisis on social and economic stability'
         />
         <CommitteesCard
           name='UN Security Council (UNSC)'
           image='images/unsa.jpeg'
           description='The Security Council has primary responsibility for the maintenance of international peace and security. It takes the lead in determining the existence of a threat to the peace or act of aggression.'
-          agenda='The ongoing conflicts in the Middle East'
+          agenda='Disputes and controversies in the South China Sea region'
         />
         <CommitteesCard
           name='UN Human Rights Council (UNHRC)'
           image='images/unhrc.jpeg'
           description='UNHRC is a United Nations body whose mission is to promote and protect human rights around the world. It is involved in being more responsive to the needs of victims of rights violations worldwide.'
-          agenda='The use of force and counter-terrorism'
+          agenda='Ensuring public access to information and protection of fundamental freedom in accordance with national legislation and international agreements'
         />
       </SimpleGrid>
 
