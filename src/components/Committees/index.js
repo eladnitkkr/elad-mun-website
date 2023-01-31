@@ -18,7 +18,7 @@ export default function Committees() {
           name='UN General Assembly (UNGA)'
           image='images/unga.jpeg'
           description='The UNGA is the main policy-making organ of the UN. Comprising all Member States, it provides a unique forum for multilateral discussion of the full spectrum of international issues covered by the Charter of the United Nations.'
-          agenda='Addressing the impact of widespead refugee crisis on social and economic stability'
+          agenda='Addressing the impact of the widespread refugee crisis on social and economic stability'
         />
         <CommitteesCard
           name='UN Security Council (UNSC)'

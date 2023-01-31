@@ -4,9 +4,10 @@ import { Button } from '@chakra-ui/react';
 
 export default function RegisterBtn() {
   return (
-    <Link to='https://re6yavl2pjk.typeform.com/to/Pv0rXVIu' target='_blank'>
+    <Link
+      to='https://unstop.com/p/model-united-nations-national-institute-of-technology-nit-kurukshetra-599126'
+      target='_blank'>
       <Button
-        isDisabled
         colorScheme='blue'
         variant='solid'
         size={{ base: 'md', lg: 'lg' }}
