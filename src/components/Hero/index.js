@@ -2,7 +2,7 @@ import React from 'react';
 import { Heading, Text, Flex, Image } from '@chakra-ui/react';
 import RegisterBtn from '../RegisterBtn';
 
-export default function Hero({ college }) {
+export default function Hero() {
   return (
     <>
       <Text
@@ -54,7 +54,7 @@ export default function Hero({ college }) {
         diplomacy and be ready to witness the exhibition of enchanting
         statesmanship.
       </Text>
-      <RegisterBtn college={college} />
+      <RegisterBtn />
     </>
   );
 }

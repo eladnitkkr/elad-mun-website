@@ -4,7 +4,7 @@ import { SimpleGrid, Center } from '@chakra-ui/react';
 import CommitteesCard from '../CommitteesCard';
 import RegisterBtn from '../RegisterBtn';
 
-export default function Committees({ college }) {
+export default function Committees() {
   return (
     <Box mt='75px' mb='75px'>
       <Center>
@@ -35,7 +35,7 @@ export default function Committees({ college }) {
       </SimpleGrid>
 
       <Center>
-        <RegisterBtn college={college} />
+        <RegisterBtn />
       </Center>
     </Box>
   );

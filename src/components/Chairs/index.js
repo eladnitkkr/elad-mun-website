@@ -20,7 +20,7 @@ const chairLinkedin = [
   'https://www.linkedin.com/in/lakhan-saddi-21087b132',
 ];
 
-export default function Chairs({ college }) {
+export default function Chairs() {
   return (
     <Box mt='75px' mb='75px'>
       <Center>
@@ -42,7 +42,7 @@ export default function Chairs({ college }) {
       </SimpleGrid>
 
       <Center>
-        <RegisterBtn college={college} />
+        <RegisterBtn />
       </Center>
     </Box>
   );

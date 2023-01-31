@@ -6,7 +6,7 @@ import WhyParticipate from '../WhyParticipate';
 import Chairs from '../Chairs';
 import Contact from '../Contact';
 
-export default function Main({ college }) {
+export default function Main() {
   return (
     <>
       <Container
@@ -21,10 +21,10 @@ export default function Main({ college }) {
           lg: 'container.lg',
           xl: 'container.xl',
         }}>
-        <Hero college={college} />
-        <WhyParticipate college={college} />
-        <Committees college={college} />
-        <Chairs college={college} />
+        <Hero />
+        <WhyParticipate />
+        <Committees />
+        <Chairs />
         <Contact />
       </Container>
     </>

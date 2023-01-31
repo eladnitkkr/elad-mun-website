@@ -2,14 +2,11 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@chakra-ui/react';
 
-export default function RegisterBtn({ college }) {
-  const registrationLink =
-    college === 'nitkkr'
-      ? 'https://re6yavl2pjk.typeform.com/to/lO8XblC0'
-      : 'https://re6yavl2pjk.typeform.com/to/Pv0rXVIu';
+export default function RegisterBtn() {
   return (
-    <Link to={registrationLink} target='_blank'>
+    <Link to='https://re6yavl2pjk.typeform.com/to/Pv0rXVIu' target='_blank'>
       <Button
+        isDisabled
         colorScheme='blue'
         variant='solid'
         size={{ base: 'md', lg: 'lg' }}
