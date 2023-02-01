@@ -1,6 +1,7 @@
 import React from 'react';
-import { Heading, Text, Flex, Image } from '@chakra-ui/react';
+import { Heading, Text, Flex, Image, ButtonGroup } from '@chakra-ui/react';
 import RegisterBtn from '../RegisterBtn';
+import BrochureBtn from '../BrochureBtn';
 
 export default function Hero() {
   return (
@@ -54,7 +55,10 @@ export default function Hero() {
         diplomacy and be ready to witness the exhibition of enchanting
         statesmanship.
       </Text>
-      <RegisterBtn />
+      <ButtonGroup spacing='4'>
+        <BrochureBtn />
+        <RegisterBtn />
+      </ButtonGroup>
     </>
   );
 }

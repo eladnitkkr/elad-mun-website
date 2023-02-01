@@ -34,7 +34,7 @@ export default function Footer() {
           <HStack justify='space-between' fontSize='sm'>
             <Box>&#169; 2023 ELAD. All Rights Reserved.</Box>
             <HStack spacing={3}>
-              <Text>Follow Us:</Text>
+              <Text>Follow us on:</Text>
               <Link to='https://www.instagram.com/eladnitkkr'>
                 <Icon as={FaInstagram} boxSize={6} />
               </Link>
