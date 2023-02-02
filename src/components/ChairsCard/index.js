@@ -14,7 +14,7 @@ import {
   Flex,
 } from '@chakra-ui/react';
 
-export default function ChairsCard({ image, name, bio, contact }) {
+export default function ChairsCard({ image, name, bio, committee, contact }) {
   return (
     <Card maxW='md' bg='rgba(255, 255, 255, 0.18)' borderRadius='xl'>
       <CardHeader>
@@ -30,6 +30,9 @@ export default function ChairsCard({ image, name, bio, contact }) {
       </CardHeader>
       <CardBody>
         <Text fontSize='md'>{bio}</Text>
+        <Heading color='yellow.400' mt={4} as='h1' fontSize='lg'>
+          Committee - {committee}{' '}
+        </Heading>
       </CardBody>
       <Divider />
       <CardFooter>

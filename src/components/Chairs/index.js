@@ -8,16 +8,17 @@ const chairImg = [
   'images/chair2.jpeg',
   'images/chair3.jpeg',
 ];
-const chairNames = ['Adarsh Kumar Singh', 'Priyanshu Grover', 'Lakhan Saddi'];
+const chairNames = ['Lakhan Saddi', 'Adarsh Kumar Singh', 'Priyanshu Grover'];
 const chairBio = [
+  'Business Consultant, ZS Associates | Corporate & Public Speaker | Published Blogger | NIT Alumnus',
   'Founder-COO, Aspirant Learning | Engineer | Awarded National Youth Icon Public Speaking & Soft Skills Coach | III Times International Award Winner',
   "Lawyer | Life-Skills Coach | TEDx Speaker | Founder-CEO, Aspirant Learning | Winner - Harvard A2I'20 and Innovision - IIT Roorkee",
-  'Business Consultant, ZS Associates | Corporate & Public Speaker | Published Blogger | NIT Alumnus',
 ];
+const chairCommittee = ['UNGA', 'UNSC', 'UNHRC']
 const chairLinkedin = [
+  'https://www.linkedin.com/in/lakhan-saddi-21087b132',
   'https://www.linkedin.com/in/adarshsinghkumar',
   'https://www.linkedin.com/in/priyanshugrover',
-  'https://www.linkedin.com/in/lakhan-saddi-21087b132',
 ];
 
 export default function Chairs() {
@@ -36,6 +37,7 @@ export default function Chairs() {
             image={chairImg[i]}
             name={name}
             bio={chairBio[i]}
+            committee={chairCommittee[i]}
             contact={chairLinkedin[i]}
           />
         ))}

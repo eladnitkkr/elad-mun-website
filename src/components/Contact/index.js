@@ -22,7 +22,7 @@ export default function Contact() {
       <Stack spacing={4}>
         <Center>Email us at:</Center>
         <Center>
-          <Link href='mailto:elad@nitkkr.ac.in' isExternal ml={4} mb={4}>
+          <Link href='mailto:elad@nitkkr.ac.in' isExternal mb={4}>
             <Button
               leftIcon={<EmailIcon />}
               variant='solid'
@@ -34,7 +34,7 @@ export default function Contact() {
 
         <Center>Call us on:</Center>
         <Center>
-          <ButtonGroup spacing='4' ml={4}>
+          <ButtonGroup spacing='4'>
             <Link href='tel:9802242548' isExternal>
               <Button
                 leftIcon={<PhoneIcon />}
