@@ -31,8 +31,7 @@ export default function Footer() {
         </Box>
         <Divider />
         <Box p='20px 0'>
-          <HStack justify='space-between' fontSize='sm'>
-            <Box>&#169; 2023 ELAD. All Rights Reserved.</Box>
+          <HStack justify='end' fontSize='sm'>
             <HStack spacing={3}>
               <Text>Follow us on:</Text>
               <Link to='https://www.instagram.com/eladnitkkr'>
