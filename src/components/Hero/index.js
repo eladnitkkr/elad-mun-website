@@ -1,21 +1,12 @@
 import React from 'react';
-import { Heading, Text, Flex, Image, ButtonGroup } from '@chakra-ui/react';
+import { Heading, Text, Flex, Image, ButtonGroup, Box } from '@chakra-ui/react';
 import RegisterBtn from '../RegisterBtn';
 import BrochureBtn from '../BrochureBtn';
 
 export default function Hero() {
   return (
-    <>
-      <Text
-        fontSize={{
-          base: 'md',
-          md: 'lg',
-          lg: 'xl',
-        }}
-        mt='50px'>
-        <b>ELAD</b> presents
-      </Text>
-      <Flex align='center' mt={4}>
+    <Box mt={4}>
+      <Flex align='center'>
         <Image
           src='images/munlogo.png'
           alt='MUN Logo'
@@ -48,17 +39,16 @@ export default function Hero() {
           lg: 'xl',
         }}
         mt={4}>
-        Current speakers are going to be future world leaders, and English
-        Literary and Debating Club is setting the stage for these leaders. Model
-        United Nations (MUN) will be organized by ELAD on 11th and 12th
-        February, 2023 at NIT Kurukshetra. Stay tuned, keep ameliorating your
-        diplomacy and be ready to witness the exhibition of enchanting
-        statesmanship.
+        <i>Let thy speech be better than silence, or be silent.</i><br/ ><br />English Literary
+        and Debating Club is setting the stage for future leaders. Model
+        United Nations (MUN) will be organized by ELAD on the <b>11th and 12th of February
+        2023</b> at NIT Kurukshetra. Stay tuned, keep ameliorating your diplomacy
+        and get ready to witness the exhibition of enchanting statesmanship.
       </Text>
       <ButtonGroup>
         <BrochureBtn />
         <RegisterBtn />
       </ButtonGroup>
-    </>
+    </Box>
   );
 }

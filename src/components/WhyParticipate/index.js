@@ -4,9 +4,9 @@ import WhyParticipateGridItem from '../WhyParticipateGridItem';
 import RegisterBtn from '../RegisterBtn';
 
 const reasons = [
+  'Enhances the general awareness of students.',
   'Promotes logical and rational thinking among students.',
-  'Enhances the general awareness of the students.',
-  'Exposes to a major multidisciplinary debating event in the academic term.',
+  'Exposes students to a major multidisciplinary debating event in the academic term.',
   'Provides opportunities to meet and connect with students from around the world.',
   'Provides students a platform to improve their public and interpersonal skills.',
 ];

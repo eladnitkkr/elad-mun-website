@@ -25,7 +25,7 @@ export default function Footer() {
         <Box w='70%'>
           <Text>
             The English Literary and Debating Club (ELAD) is an official club of
-            NIT Kurukshetra responsible for organizing literary, oratory and
+            NIT Kurukshetra responsible for organizing literary, oratory, and
             quizzing events.
           </Text>
         </Box>

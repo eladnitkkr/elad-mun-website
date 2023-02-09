@@ -8,7 +8,7 @@ export default function CommitteesCard({ image, name, description, agenda }) {
         <Image src={image} alt='UN Committee image' borderRadius='lg' />
         <Stack mt='6' spacing='3'>
           <Heading size='md'>{name}</Heading>
-          <Text fontSize='sm'>{description}</Text>
+          <Text fontSize='md'>{description}</Text>
           <br />
           <Heading size='sm' mt={4}>
             AGENDA: <br /><br />

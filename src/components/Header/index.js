@@ -5,7 +5,7 @@ import { Container, Flex, Image, Text } from '@chakra-ui/react';
 export default function Header() {
   return (
     <Container maxW='container.xl' padding='1rem'>
-      <Flex align='center'>
+      <Flex align='center' mb={4}>
         <Image
           src='images/eladLogo.png'
           alt='ELAD Logo'
