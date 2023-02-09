@@ -27,7 +27,7 @@ export default function Contact() {
               leftIcon={<EmailIcon />}
               variant='solid'
               size={{ base: 'md', lg: 'lg' }}>
-              Email
+              elad@nitkkr.ac.in
             </Button>
           </Link>
         </Center>

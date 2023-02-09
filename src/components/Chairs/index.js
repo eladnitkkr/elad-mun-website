@@ -1,6 +1,5 @@
 import React from 'react';
 import { Box, Center, Heading, SimpleGrid } from '@chakra-ui/react';
-import RegisterBtn from '../RegisterBtn';
 import ChairsCard from '../ChairsCard';
 
 const chairImg = [
@@ -14,7 +13,7 @@ const chairBio = [
   'Founder-COO, Aspirant Learning | Engineer | Awarded National Youth Icon Public Speaking & Soft Skills Coach | III Times International Award Winner',
   "Lawyer | Life-Skills Coach | TEDx Speaker | Founder-CEO, Aspirant Learning | Winner - Harvard A2I'20 and Innovision - IIT Roorkee",
 ];
-const chairCommittee = ['UNGA', 'UNSC', 'UNHRC']
+const chairCommittee = ['UNGA', 'UNSC', 'UNHRC'];
 const chairLinkedin = [
   'https://www.linkedin.com/in/lakhan-saddi-21087b132',
   'https://www.linkedin.com/in/adarshsinghkumar',
@@ -23,7 +22,7 @@ const chairLinkedin = [
 
 export default function Chairs() {
   return (
-    <Box mt='75px' mb='75px'>
+    <Box mt='75px' mb='150px'>
       <Center>
         <Heading as='h1' size={{ base: 'lg', md: 'xl', lg: '2xl' }} mb='50px'>
           Know the Chairs
@@ -42,10 +41,6 @@ export default function Chairs() {
           />
         ))}
       </SimpleGrid>
-
-      <Center>
-        <RegisterBtn />
-      </Center>
     </Box>
   );
 }

@@ -5,6 +5,7 @@ import Committees from '../Committees';
 import WhyParticipate from '../WhyParticipate';
 import Chairs from '../Chairs';
 import Contact from '../Contact';
+import ViceChairs from '../ViceChairs';
 
 export default function Main() {
   return (
@@ -25,6 +26,7 @@ export default function Main() {
         <WhyParticipate />
         <Committees />
         <Chairs />
+        <ViceChairs />
         <Contact />
       </Container>
     </>

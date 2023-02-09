@@ -55,7 +55,7 @@ export default function Hero() {
         diplomacy and be ready to witness the exhibition of enchanting
         statesmanship.
       </Text>
-      <ButtonGroup spacing='4'>
+      <ButtonGroup>
         <BrochureBtn />
         <RegisterBtn />
       </ButtonGroup>
