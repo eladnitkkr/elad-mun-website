@@ -35,35 +35,26 @@ export default function Contact() {
         <Center>Call us on:</Center>
         <Center>
           <ButtonGroup spacing='4'>
-            <Link href='tel:9802242548' isExternal>
+            <Link href='tel:9810263070' isExternal>
               <Button
                 leftIcon={<PhoneIcon />}
                 color='yellow.400'
                 variant='outline'
                 size={{ base: 'sm', md: 'md' }}>
-                Harsh
+                Avtans Dixit
               </Button>
             </Link>
 
-            <Link href='tel:7292045014' isExternal>
+            <Link href='tel:8657424630' isExternal>
               <Button
                 leftIcon={<PhoneIcon />}
                 color='yellow.400'
                 variant='outline'
                 size={{ base: 'sm', md: 'md' }}>
-                Saloni
+                Swasti Verma
               </Button>
             </Link>
 
-            <Link href='tel:8059736666' isExternal>
-              <Button
-                leftIcon={<PhoneIcon />}
-                color='yellow.400'
-                variant='outline'
-                size={{ base: 'sm', md: 'md' }}>
-                Devyansh
-              </Button>
-            </Link>
           </ButtonGroup>
         </Center>
       </Stack>
