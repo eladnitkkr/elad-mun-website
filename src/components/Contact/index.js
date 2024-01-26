@@ -54,7 +54,6 @@ export default function Contact() {
                 Swasti Verma
               </Button>
             </Link>
-
           </ButtonGroup>
         </Center>
       </Stack>
