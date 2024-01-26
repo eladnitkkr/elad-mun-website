@@ -41,7 +41,7 @@ export default function Hero() {
         mt={4}>
         <i>Let thy speech be better than silence, or be silent.</i><br/ ><br />English Literary
         and Debating Club is setting the stage for future leaders. Model
-        United Nations (MUN) will be organized by ELAD on the <b>11th and 12th of February
+        United Nations (MUN) will be organized by ELAD from <b> 23rd to 25th of February
         2024</b> at NIT Kurukshetra. Stay tuned, keep ameliorating your diplomacy
         and get ready to witness the exhibition of enchanting statesmanship.
       </Text>
