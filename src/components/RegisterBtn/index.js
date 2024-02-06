@@ -6,7 +6,7 @@ import { ArrowForwardIcon } from '@chakra-ui/icons';
 export default function RegisterBtn() {
   return (
     <Link
-      to='https://unstop.com/p/model-united-nations-national-institute-of-technology-nit-kurukshetra-599126'
+      to='https://docs.google.com/forms/d/e/1FAIpQLSdByh0p9UbGwRCLvS4NMQg4eB6LhcBxUzjAGXkrBlKC0I7IWw/viewform'
       target='_blank'>
       <Button
         rightIcon={<ArrowForwardIcon />}
