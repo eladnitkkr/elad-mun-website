@@ -5,7 +5,7 @@ import { Button } from '@chakra-ui/react';
 export default function BrochureBtn() {
   return (
     <Link
-      to='https://drive.google.com/file/d/1ksl0_aHioCbDSM_UjjEgDDDiB-Y0nhnu/view?usp=sharing'
+      to='https://drive.google.com/file/d/1-jJYCc0VPCuUlhXcTbmXTOcMjmO2qenm/view?usp=sharing'
       target='_blank'>
       <Button
         colorScheme='blue'
