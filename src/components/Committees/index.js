@@ -13,7 +13,7 @@ export default function Committees() {
         </Heading>
       </Center>
 
-      <SimpleGrid spacing={4} justifyItems='center' minChildWidth='250px'>
+      <SimpleGrid spacing={4} justifyItems='center' minChildWidth='300px'>
         <CommitteesCard
           name='UN General Assembly (UNGA)'
           image='images/unga.jpeg'
@@ -31,7 +31,7 @@ export default function Committees() {
           agenda='Enhancing cross-national security cooperation
           to counter pirate militia attacks in the red sea
           and safeguarding global shipping routes with a
-          focus on economic stability \n \n'
+          focus on economic stability'
         />
         <CommitteesCard
           name='UN Human Rights Council (UNHRC)'
