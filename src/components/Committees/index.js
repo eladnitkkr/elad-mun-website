@@ -36,7 +36,7 @@ export default function Committees() {
         <CommitteesCard
           name='UN Human Rights Council (UNHRC)'
           image='images/unhrc.jpeg'
-          description='The United Nations Human Rights Council (UNHRC) is an inter-governmental body within the United Nations (UN) system responsible for promoting and protecting human rights worldwide, with the mandate of addressing human rights violations.'
+          description='The United Nations Human Rights Council (UNHRC) is an inter-governmental body within the United Nations (UN) responsible for promoting and protecting human rights worldwide, with the mandate of addressing human rights violations.'
           agenda='Harmonizing human rights safeguards in the Israel-Palestine conflict: prioritizing the safety of civilians,
           ensuring accountability for violations, facilitating
           adequate humanitarian aid, and cultivating
