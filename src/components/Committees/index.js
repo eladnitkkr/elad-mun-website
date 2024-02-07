@@ -31,7 +31,7 @@ export default function Committees() {
           agenda='Enhancing cross-national security cooperation
           to counter pirate militia attacks in the red sea
           and safeguarding global shipping routes with a
-          focus on economic stability'
+          focus on economic stability \n \n'
         />
         <CommitteesCard
           name='UN Human Rights Council (UNHRC)'
