@@ -13,7 +13,7 @@ export default function Committees() {
         </Heading>
       </Center>
 
-      <SimpleGrid spacing={4} justifyItems='center' minChildWidth='200px'>
+      <SimpleGrid spacing={4} justifyItems='center' minChildWidth='250px'>
         <CommitteesCard
           name='UN General Assembly (UNGA)'
           image='images/unga.jpeg'
