@@ -29,7 +29,7 @@ export default function Committees() {
           image='images/unsa.jpeg'
           description='The United Nations Security Council (UNSC) is the epicenter of international peace and security. From resolving civil wars to tackling terrorism and cybercrimes, the UNSC stands as the cornerstone of a safer, more prosperous world for all.'
           agenda='Enhancing cross-national security cooperation
-          to counter pirate militia attacks in the red sea
+          to counter pirate militia attacks in the Red Sea
           and safeguarding global shipping routes with a
           focus on economic stability'
         />
@@ -37,7 +37,7 @@ export default function Committees() {
           name='UN Human Rights Council (UNHRC)'
           image='images/unhrc.jpeg'
           description='The United Nations Human Rights Council (UNHRC) is an inter-governmental body within the United Nations (UN) system responsible for promoting and protecting human rights worldwide, with the mandate of addressing human rights violations.'
-          agenda='Harmonizing human rights safeguards in the Israel Palestine conflict: prioritizing the safety of civilians,
+          agenda='Harmonizing human rights safeguards in the Israel-Palestine conflict: prioritizing the safety of civilians,
           ensuring accountability for violations, facilitating
           adequate humanitarian aid, and cultivating
           international cooperation for a just and peaceful
@@ -46,7 +46,7 @@ export default function Committees() {
                 <CommitteesCard
           name='All India Political Parties Meet (AIPPM)'
           image='images/unga.jpeg'
-          description='The All India Political Parties Meet (AIPPM) serves as a crucial space where politicians come together for open and meaningful discussions, free from the formalities of regular legislative duties.'
+          description='The All India Political Parties Meet (AIPPM) serves as a crucial space where politicians come together for open and meaningful discussions, free from formalities of regular legislative duties, bringing in diverse perspectives and collaboration.'
           agenda="Deliberation upon India's strategies to
           preserve and promote cultural heritage with
           special emphasis on rapid modernisation"
