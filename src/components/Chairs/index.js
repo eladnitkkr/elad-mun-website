@@ -6,19 +6,17 @@ const chairImg = [
   'images/chair1.jpeg',
   'images/chair2.jpeg',
   'images/chair3.jpeg',
+  'images/chair4.jpeg'
 ];
-const chairNames = ['Lakhan Saddi', 'Adarsh Kumar Singh', 'Priyanshu Grover'];
+const chairNames = ['Vihan Saraswat', 'Kartik Deshwal', 'Anjali Kadyan', 'Rishi Singh'];
 const chairBio = [
-  'Business Consultant, ZS Associates | Corporate & Public Speaker | Published Blogger | NIT Alumnus',
-  'Founder-COO, Aspirant Learning | Engineer | Awarded National Youth Icon Public Speaking & Soft Skills Coach | III Times International Award Winner',
-  "Lawyer | Life-Skills Coach | TEDx Speaker | Founder-CEO, Aspirant Learning | Winner - Harvard A2I'20 and Innovision - IIT Roorkee",
+  'Public Speaker | Trainer | Part-time Photographer | Model UN and YP Experience(7+ years) | Attended 200+ Conferences | Excellence in Multimedia | Mastery in Diplomacy | Aspiring Film Maker',
+  'Passionate Debater | Public Speaking | Developing Vocal Skills | Judged 35+ Debates | 100+ Conference Participation | Mentorship in Project Vaani (Teach for India) | Awarded for Excellence in Oratory and Social Service',
+  "Committed to Women's Empowerment | NGO Contributor | Masters in International Relations (Delhi University) | 100+ Conference Experience | Advocate for Women's Voices and Perspectives in Conferences",
+  '170+ Model United Nations (MUNs) and Youth Parliaments | Dedicated to Global Affairs and Diplomacy | Founder and Chairman of Altior Group | Recognized by United Nations, G-20, Niti Ayog | Command over Multiple Languages'
 ];
-const chairCommittee = ['UNGA', 'UNSC', 'UNHRC'];
-const chairLinkedin = [
-  'https://www.linkedin.com/in/lakhan-saddi-21087b132',
-  'https://www.linkedin.com/in/adarshsinghkumar',
-  'https://www.linkedin.com/in/priyanshugrover',
-];
+const chairCommittee = ['UNGA', 'UNSC', 'UNHRC', 'AIPPM'];
+
 
 export default function Chairs() {
   return (
@@ -37,7 +35,6 @@ export default function Chairs() {
             name={name}
             bio={chairBio[i]}
             committee={chairCommittee[i]}
-            contact={chairLinkedin[i]}
           />
         ))}
       </SimpleGrid>

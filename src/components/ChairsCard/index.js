@@ -36,11 +36,7 @@ export default function ChairsCard({ image, name, bio, committee, contact }) {
       </CardBody>
       <Divider />
       <CardFooter>
-        <Link href={contact} isExternal>
-          <Button variant='ghost' leftIcon={<RiLinkedinBoxFill />}>
-            LinkedIn
-          </Button>
-        </Link>
+ 
       </CardFooter>
     </Card>
   );
