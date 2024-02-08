@@ -45,7 +45,7 @@ export default function Committees() {
         />
                 <CommitteesCard
           name='All India Political Parties Meet (AIPPM)'
-          image='images/unga.jpeg'
+          image='images/AIPPM.jpeg'
           description='The All India Political Parties Meet (AIPPM) serves as a crucial space where politicians come together for open and meaningful discussions, free from formalities of regular legislative duties, bringing in diverse perspectives and collaboration.'
           agenda="Deliberation upon India's strategies to
           preserve and promote cultural heritage with
