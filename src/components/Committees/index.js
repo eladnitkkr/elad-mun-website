@@ -22,7 +22,7 @@ export default function Committees() {
           special emphasis on diplimatic formulas to mitigate
           the confluence of climate crisis, conflict
           dynamics, and economic uncertainties in the global
-          food nexus'
+          food nexus.'
         />
         <CommitteesCard
           name='UN Security Council (UNSC)'
@@ -31,7 +31,7 @@ export default function Committees() {
           agenda='Enhancing cross-national security cooperation
           to counter pirate militia attacks in the Red Sea
           and safeguarding global shipping routes with a
-          focus on economic stability'
+          focus on economic stability.'
         />
         <CommitteesCard
           name='UN Human Rights Council (UNHRC)'
@@ -41,7 +41,7 @@ export default function Committees() {
           ensuring accountability for violations, facilitating
           adequate humanitarian aid, and cultivating
           international cooperation for a just and peaceful
-          resolution'
+          resolution.'
         />
                 <CommitteesCard
           name='All India Political Parties Meet (AIPPM)'
@@ -49,7 +49,7 @@ export default function Committees() {
           description='The All India Political Parties Meet (AIPPM) serves as a crucial space where politicians come together for open and meaningful discussions, free from formalities of regular legislative duties, bringing in diverse perspectives and collaboration.'
           agenda="Deliberation upon India's strategies to
           preserve and promote cultural heritage with
-          special emphasis on rapid modernisation"
+          special emphasis on rapid modernisation."
         />
       </SimpleGrid>
 
