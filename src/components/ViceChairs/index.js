@@ -2,9 +2,9 @@ import React from 'react';
 import { Box, Center, Heading, SimpleGrid } from '@chakra-ui/react';
 import ViceChairsCard from '../ViceChairsCard';
 
-const viceChairImg = ['images/vc1.jpeg', 'images/vc2.jpeg', 'images/vc3.jpeg'];
-const viceChairNames = ['Mansvi Bangarh', 'Vyomika Sharma', 'Danish Macknight'];
-const viceChairCommittee = ['UNGA', 'UNSC', 'UNHRC'];
+const viceChairImg = ['images/vc1.jpeg', 'images/vc2.jpeg', 'images/vc3.jpeg', 'images/vc4.jpeg'];
+const viceChairNames = ['Wania Hussain', 'Mansvi Bangarh', 'Radhika Bharadwaj', 'Aditya Dubey'];
+const viceChairCommittee = ['UNGA', 'UNSC', 'UNHRC', 'AIPPM'];
 
 export default function ViceChairs() {
   return (
