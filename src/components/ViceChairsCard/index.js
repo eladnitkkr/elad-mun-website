@@ -16,7 +16,7 @@ export default function ViceChairsCard({ image, name, committee }) {
           <Box>
             <Heading size='md'>{name}</Heading>
             <Text mt={2} fontSize='md'>
-              Committee - {committee}{' '}
+              Committee : {committee}{' '}
             </Text>
           </Box>
         </Flex>
